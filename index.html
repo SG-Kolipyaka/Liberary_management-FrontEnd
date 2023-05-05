@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div {
+            display: flex;
+            justify-content: space-around;
+          }
+          form {
+            margin: 0 auto;
+           
+            width: 30%;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            padding: 30px;
+            margin-left: 40%;
+          }
+          
+          
+          
+          label {
+            font-size: 20px;  
+          }
+          
+          table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+          }
+          
+          table td,
+          table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+          }
+          
+          table tr:nth-child(even) {
+            background-color: #8caacf;
+          }
+          
+          table tr:hover {
+            background-color: #ddd;
+          }
+          
+          table thead {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #0468aa;
+            color: white;
+            text-align: center;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          input[type="text"],
+          select,
+          textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+
+          input[type="email"],
+          select,
+          textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+
+
+          input[type="password"],
+          select,
+          textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+
+          
+          input[type="submit"] {
+            background-color: #2b619e;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 20px;
+          }
+          
+          input[type="submit"]:hover {
+            background-color: palevioletred;
+          }
+          
+          h1 {
+            text-align: center;
+            font-size: 30px;
+            text-transform: uppercase;
+            font-family: monospace;
+            color: #2b619e;
+            text-decoration: underline;
+          }
+          table tbody{
+            background-color: white;
+            
+          }
+    </style>
+</head>
+<body>
+    <!-- Dont make any changes here -->
+    <h1>LIBERARY MANAGEMENT SYSTEM</h1>
+    <div class="menubar">
+     
+<ul>
+    <li ><a href="index.html"><b>SIGN UP</b></a></li>
+
+
+    <!-- div.setAttribute("class","submenu1") -->
+
+    <li  ><a href="login.html"><b>LOGIN</b></a></li>
+    <li><a href="books.html"><b>BOOKS SECTION</b></a></li>
+    <li><a href="admin.html"><b>ADMIN(Only LIBRARIAN)</b></a></li>
+    <li><a href="allmembers.html"><b>ALL MEMBERS</b></a></li>
+    <li><a href="#"><b>Delete(OWN ACCOUNT)</b></a></li>
+    <!-- <li id="brand" ><a href="womens.html"><b>BRANDS</b></a></li> -->
+</ul>
+ 
+
+  </div>
+
+  <h1 id="display-respo"></h1>
+     <h1>SignUP Page</h1>
+
+    <div>
+      <!-- ***** We are using form here  ****  -->
+      <form>
+        <label for=""> Name</label><br />
+        <input id="task1" type="text" placeholder="Enter Your Name" /><br />
+
+        <label for=""> Gender</label><br />
+        <input id="task2" type="text" placeholder="Enter Your Gender" /><br />
+     
+        <label for=""> Role</label><br />
+        <input id="task3" type="text" placeholder="Enter Your Role" /><br />
+
+        <label for=""> Email</label><br />
+        <input id="task4" type="email" placeholder="Enter Your Email" /><br />
+
+        <label for="">Password</label><br />
+        <input id="task5" type="password" placeholder="Enter Your Password" /><br />
+
+        <br />
+        <input type="submit" />
+      </form>
+      <table>
+        <!-- Dont change order of columns -->
+        <!-- <thead>
+          <tr>
+            <th>image url</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Number</th>
+            <th>Discount</th>
+            <th>Delete</th>
+            
+          </tr>
+        </thead> -->
+        <tbody>
+        <!-- Append your output to tbody -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+<script src="C:\Users\Sumit\Desktop\Library_managemenr-FrontEnd\Liberary_management-FrontEnd\input1.js"></script>
+</html>
